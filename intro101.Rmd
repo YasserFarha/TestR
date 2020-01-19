@@ -1,0 +1,24 @@
+---
+title: "Intro101"
+author: "Yasser Farha"
+date: "1/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+هذي مقدمة في لغة الآر مشروحة باللغة العربية. لغة الآر هي لغة برمجية احصائية مفتوحة المصدر. تحتوي على عدة مكتبات تغطي الكثير من مجالات الاحصاء وتعلم الآلة اللتي تعتبر عمود تحليل البيانات
+
+تجريبيا لنرى التالي
+
+```{r}
+data("mtcars")
+summary(mtcars)
+```
+
+```{r}
+plot(mtcars$mpg)
+```
+
